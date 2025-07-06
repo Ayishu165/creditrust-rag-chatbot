@@ -10,3 +10,8 @@ Task 2: Chunking, Embedding, and Vector Indexing
 - Split long narratives using LangChain's RecursiveCharacterTextSplitter
 - Embedded chunks with all-MiniLM-L6-v2 from SentenceTransformers
 - Stored embeddings and metadata in ChromaDB persistent vector store
+task 3
+- Created prompt template for context-aware answering
+- Integrated ChromaDB to retrieve top-k relevant chunks
+- Used Hugging Face DistilGPT2 for generation
+- Function `ask_question_rag()` returns answer + source chunks
